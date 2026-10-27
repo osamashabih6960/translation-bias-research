@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face cache
+.cache/
+.cache_huggingface/
+huggingface_cache/
+
+# Raw datasets - DO NOT PUSH
+data/raw/
+
+# Processed/generated data
+data/processed/
+
+# Logs
+*.log
+
+# Environment/secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp

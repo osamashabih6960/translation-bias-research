@@ -1,0 +1,17 @@
+datasets
+huggingface_hub
+transformers
+accelerate
+sentencepiece
+sacrebleu
+bert-score
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+jupyter
+ipykernel
+tqdm
+pyyaml
