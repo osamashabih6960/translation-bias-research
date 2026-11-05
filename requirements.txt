@@ -1,0 +1,50 @@
+
+# ==========================================
+# Core Data Science
+# ==========================================
+pandas
+numpy
+scipy
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+PyYAML>=6.0.2
+python-dotenv
+tqdm
+
+# ==========================================
+# Deep Learning
+# ==========================================
+torch
+transformers>=4.45,<5
+accelerate
+sentencepiece
+huggingface_hub
+safetensors
+
+# ==========================================
+# LLM APIs
+# ==========================================
+openai
+google-genai
+
+# ==========================================
+# Translation Quality Metrics
+# ==========================================
+sacrebleu
+bert-score
+jiwer
+rouge-score
+
+# ==========================================
+# Bias Detection
+# ==========================================
+spacy
+sentence-transformers
+
+# ==========================================
+# Annotation Agreement / Statistics
+# ==========================================
+krippendorff
