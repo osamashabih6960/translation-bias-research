@@ -1,7 +1,4 @@
-
-# ==========================================
-# Core Data Science
-# ==========================================
+# Core
 pandas
 numpy
 scipy
@@ -10,41 +7,26 @@ scikit-learn
 matplotlib
 seaborn
 openpyxl
-PyYAML>=6.0.2
+pyyaml
 python-dotenv
 tqdm
-
-# ==========================================
-# Deep Learning
-# ==========================================
+# Translation / models
 torch
-transformers>=4.45,<5
+transformers
 accelerate
+bitsandbytes
 sentencepiece
 huggingface_hub
-safetensors
-
-# ==========================================
-# LLM APIs
-# ==========================================
-openai
-google-genai
-
-# ==========================================
-# Translation Quality Metrics
-# ==========================================
+openai          # OpenAI-compatible APIs (Groq / Together / OpenRouter) for the 70B model
+google-genai    # Gemini judge + gemini-embedding-001
+# Quality metrics
 sacrebleu
+unbabel-comet
 bert-score
 jiwer
 rouge-score
-
-# ==========================================
-# Bias Detection
-# ==========================================
+# Bias detection
 spacy
-sentence-transformers
-
-# ==========================================
-# Annotation Agreement / Statistics
-# ==========================================
+sentence-transformers   # LaBSE / multilingual-e5
+# Agreement / stats
 krippendorff

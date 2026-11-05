@@ -4,11 +4,11 @@ languages_target: [hi, bn, ta, ar, de, tr, fi, kk]   # confirm against annotator
 baseline_pairs_x2en: [de-en, fi-en, tr-en, bn-en, kk-en, gu-en]
 domains: [general, medical, legal, literature]
 bias_categories: [gender, cultural, sociocultural, racial, religious, social]
-models:                      # fill exact checkpoints on Day 2
-  - {name: gemma-2-9b, checkpoint: TBD}
-  - {name: llama-3.1-8b, checkpoint: TBD}
-  - {name: llama-3.1-70b, checkpoint: TBD}
-  - {name: qwen-2.5-3b, checkpoint: TBD}
+models:                      # exact IDs (Day 2)
+  - {name: qwen-2.5-3b, checkpoint: Qwen/Qwen2.5-3B-Instruct, where: local_or_colab}
+  - {name: llama-3.1-8b, checkpoint: meta-llama/Llama-3.1-8B-Instruct, where: local_or_colab}
+  - {name: gemma-2-9b, checkpoint: google/gemma-2-9b-it, where: local_or_colab}
+  - {name: llama-3.3-70b, checkpoint: llama-3.3-70b-versatile, where: groq_api, note: record date}
 decoding: {baseline_temperature: 0.1, main_temperature: 0.0, stochastic_seeds: [1, 2, 3], max_new_tokens: 512, batch_size: 16}
 similarity_threshold: {initial: 0.75, tuned: null}    # tune on dev set only (Day 12)
 split: {dev: 0.30, test: 0.70}
